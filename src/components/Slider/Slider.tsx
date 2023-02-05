@@ -1,6 +1,6 @@
-import React from 'react'
-import { SliderItem } from '../SliderItem/SliderItem'
-import './styles.scss'
+import React from 'react';
+import { SliderItem } from '../SliderItem/SliderItem';
+import './styles.scss';
 
 export const Slider = () => {
   return (
@@ -16,5 +16,5 @@ export const Slider = () => {
         <li className='slider__dot'></li>
       </ul>
     </div>
-  )
-}
+  );
+};

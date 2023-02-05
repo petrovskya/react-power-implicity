@@ -6,7 +6,7 @@
   padding: 20px;
   gap: 32px;
 
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     grid-template-columns: none;
     grid-template-rows: repeat(3, 1fr);
     padding: 10px 20px;
@@ -18,7 +18,7 @@
     height: 47px;
     color: rgba(242, 244, 247, 1);
 
-    @media (max-width:768px) {
+    @media (max-width: 768px) {
       margin: auto;
     }
   }
@@ -33,32 +33,27 @@
       color: rgba(160, 163, 167, 1);
       font-size: 14px;
       font-weight: 400;
-      
     }
 
-    @media (max-width:768px) {
+    @media (max-width: 768px) {
       grid-template-columns: none;
       grid-template-rows: repeat(3, 1fr);
       gap: 32px;
     }
 
-    @media (max-width:375px) { 
+    @media (max-width: 375px) {
       gap: 16px;
     }
-
   }
-  
+
   &__button {
     display: grid;
     justify-self: end;
     padding: 16px 24px;
 
-    background: linear-gradient(93.22deg, #E1E1E1 8.37%, #FFFFFF 99.95%) border-box;
+    background: linear-gradient(93.22deg, #e1e1e1 8.37%, #ffffff 99.95%)
+      border-box;
     border-radius: 1000px;
     border-color: transparent;
-    
   }
-  
 }
-
-
